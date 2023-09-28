@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email submission</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container mt-5 col-md-6 bg-light ">
+        <form action="https://formsubmit.co/5a14c69f1c3079dc54f9f484a9087be3" method="POST">
+
+            <h1>Book Your Ride Now!</h1>
+            <div class=" form-floating mb-3">
+                <input type="name" class=" form-control" name="name" placeholder="">
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" name="email" placeholder="">
+                <label for="floatingPassword">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="mobile" class="form-control"name="mobile" placeholder="">
+                <label for="floatingPassword">Mobile</label>
+            </div>
+            <div class=" mb-3">
+                <select class="form-floating form-select" aria-label="Default select example">
+                    <option selected>Select your car</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="datetime-local" class="form-control" name="pickdate" placeholder="">
+                <label for="floatingPassword">Pickup Date & Time</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="datetime-local" class="form-control" name="dropdate" placeholder="">
+                <label for="floatingPassword">Drop off Date & Time</label>
+            </div>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanku.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_autoresponse" value="Thanks for booking your ride with us ..!">
+
+
+
+            <button type="submit" class="form-btn  btn-primary">Submit</button>
+        </form>
+
+    </div>
+    <!-- <script>
+        function thanku(){
+            console.log("connected");
+
+            alert("data sent successfully")
+        }
+    </script> -->
+
+   
+
+</body>
+
+</html>

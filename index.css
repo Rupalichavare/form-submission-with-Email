@@ -1,0 +1,28 @@
+.container{
+    height: 600px;
+}
+.form-div{
+    padding: 20px;
+}
+.form-div h1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 120px;
+    font-size: xx-large;
+
+}
+.form-floating input{
+    box-shadow: 5px 5px 15px rgb(173, 173, 173)
+}
+.form-btn {
+    background-color: aqua;
+    border: none;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 80px;
+
+}
